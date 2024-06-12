@@ -52,10 +52,10 @@ def main():
     # and export the following
     # sender_email = os.getenv("EMAIL_USER")    --> (Ex: export EMAIL_USER=youremail@example.com)
     # password = os.getenv("PASS_USER")  --> (Ex: export PASS_USER=youremail@example.com)
-    sender_email = 'giusdema99@gmail.com'
-    password ='Giuspippo99'
+    sender_email = 'your_email@example.com'
+    password ='your_password'
     subject = 'Application to Job interview'
-    body = "Dear Frangelico,\n\nThis is a test\n\nBest regards,\nGiuseppe"
+    body = "Dear Sir,\n\nThis is a test\n\nBest regards,\nYour_Name"
 
     if not sender_email or not password:
         print("Error: EMAIL_USER and EMAIL_PASS environment variables must be set.")
